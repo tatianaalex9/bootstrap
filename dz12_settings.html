@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Settings</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="dz12_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/all.min.css">
+	</head>
+	<body>
+		<header class="py-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 d-flex align-items-center">
+						
+						<nav class="navbar navbar-expand-lg">
+							<div class="container-fluid">
+								<a class="navbar-brand" href="#">
+									<i class="logo fa-solid fa-house-user fs-1 text-white"></i>
+								</a>
+								<div class="collapse navbar-collapse" id="navbarNav">
+									<ul class="navbar-nav fs-5">
+										<li class="nav-item">
+											<a class="nav-link text-white" style="--bs-text-opacity: .5" href="#">Home</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white" style="--bs-text-opacity: .5" href="#">Homework</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link active text-white" aria-current="page" href="#">Settings</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>	
+						
+					<div class="offset-6 col-2 d-flex align-items-center justify-content-end">
+						<a href="dz12_settings.html">
+							<img src="images/av_64.png" alt="profile" class="profile">
+						</a>
+					</div>	
+
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+				
+				<div class="row">
+					<p class="text-center py-3 fs-2">Settings</p>	
+				</div>
+				
+				<div class="row">
+					<div class="col-3 fs-5 text-center py-2 bg-info">AVATAR</div>
+					<div class="col-5 fs-5 text-center py-2 bg-info">STUDENT'S INFO</div>
+					<div class="col-4 fs-5 text-center py-2 bg-info">CHANGE PASSWORD</div>					
+				</div>
+				
+				<div class="row">
+				
+				
+					<div class="col-3">
+						<div class="d-flex justify-content-center">
+							<img src="images/av_256.png" alt="profile" class="profile-set mt-5">	
+						</div>
+						<div class="d-flex justify-content-center">
+							<button type="button" class="btn btn-secondary px-5">Choose photo</button>
+						</div>
+						
+					</div>
+					
+					
+					<div class="col-5">
+						<div>
+							<input type="text" class="form-control mt-5 mb-3" id="formGroupExampleInput" placeholder="First name">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="Last name">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="Email">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="Phone number">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="Address">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="FB link">
+						</div>
+						<div class="d-grid gap-2 mb-5">
+							<button class="btn btn-secondary" type="button">Save changes</button>
+						</div>
+					</div>
+
+
+					
+					<div class="col-4">
+						<div>
+							<input type="text" class="form-control mt-5 mb-3" id="formGroupExampleInput" placeholder="Old password">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="New password">
+							<input type="text" class="form-control mb-3" id="formGroupExampleInput" placeholder="Repeat password">
+						</div>
+						<div class="d-grid gap-2 mb-5">
+							<button class="btn btn-secondary" type="button">Change password</button>
+						</div>
+					</div>	
+						
+					
+					
+				</div>
+					
+			</div>			
+		</main>
+
+
+
+			
+
+		<!--<script src="js/bootstrap.min.js"></script>-->
+	</body>
+</html>

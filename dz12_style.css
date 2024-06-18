@@ -1,0 +1,93 @@
+header {
+	background: rgb(28, 85, 136)
+}
+
+.profile {
+	width: 50px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.date {
+	font-size: 12px;
+}
+
+.attended {
+	position: relative;
+}
+
+.al-arrow {
+	position: absolute;
+    right: -12px;
+    top: 45%;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid rgb(233, 236, 239);
+    border-right: 3px solid rgb(233, 236, 239);
+    transform: rotate(-45deg);
+    margin-top: -8px;
+    background: #fff;
+}
+
+.rewards {
+	width: 30px;
+	height: 30px;
+}
+
+.atdate {
+	position: relative;
+}
+
+.dr-arrow {
+	position: absolute;
+    left: -12px;
+    top: 45%;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid rgb(233, 236, 239);
+    border-left: 3px solid rgb(233, 236, 239);
+    transform: rotate(-45deg);
+    margin-top: -8px;
+    background: #fff;
+}
+
+.aleft {
+	width: 140px;
+}
+
+.dright {
+	width: 105px;
+}
+
+.adleft {
+	width: 105px;
+}
+
+.rdright {
+	width: 140px;
+}
+
+.curcle {
+	width: 15px;
+	height: 15px;
+	background: rgb(233, 236, 239);
+}
+
+ul {
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.loops {
+	background: rgb(233, 236, 239);
+}
+
+.reviwed {
+	background: rgb(15, 81, 50);
+}
+
+.profile-set {
+	width: 200px;
+	
+}
+
